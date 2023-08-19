@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>ToDo List</h1>
+<div id="container">
+    <div class="input">
+        <label><input type="text" id="todo-input" placeholder="Enter new task"></label>
+        <button id="add-button">Add task</button>
+    </div>
+    <div class="tasks">
+        <button id="even-button">Highlight even</button>
+        <button id="odd-button">Highlight odd</button>
+        <button id="remove-last-button" class="delete">Remove last</button>
+        <button id="remove-first-button" class="delete">Remove first</button>
+    </div>
+    <ul id="todo-list">
+        <!-- Список дел будет динамически заполнен из local storage -->
+    </ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: antiquewhite;
+    font-family: cursive;
+}
+
+#container {
+    width: 60%;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+input[type="text"] {
+    padding: 3px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.even {
+    background-color: lightblue;
+}
+
+.odd {
+    background-color: lightgreen;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+input,
+button {
+    font-family: cursive;
+}
+
+button {
+    background: aqua;
+    padding: 3px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.input {
+    margin-bottom: 10px;
+}
+
+.tasks {
+    display: flex;
+    gap: 10px;
+}
+
+.delete {
+    color: red;
+}
